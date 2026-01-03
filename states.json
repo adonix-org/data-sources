@@ -55,7 +55,6 @@
     { "code": "WV", "name": "West Virginia", "fips": "54", "type": "state" },
     { "code": "WI", "name": "Wisconsin", "fips": "55", "type": "state" },
     { "code": "WY", "name": "Wyoming", "fips": "56", "type": "state" },
-
     {
         "code": "AS",
         "name": "American Samoa",
