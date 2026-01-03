@@ -1,74 +1,334 @@
 [
-    { "code": "AL", "name": "Alabama", "fips": "01", "type": "state" },
-    { "code": "AK", "name": "Alaska", "fips": "02", "type": "state" },
-    { "code": "AZ", "name": "Arizona", "fips": "04", "type": "state" },
-    { "code": "AR", "name": "Arkansas", "fips": "05", "type": "state" },
-    { "code": "CA", "name": "California", "fips": "06", "type": "state" },
-    { "code": "CO", "name": "Colorado", "fips": "08", "type": "state" },
-    { "code": "CT", "name": "Connecticut", "fips": "09", "type": "state" },
-    { "code": "DE", "name": "Delaware", "fips": "10", "type": "state" },
+    {
+        "code": "AL",
+        "name": "Alabama",
+        "fips": "01",
+        "type": "state"
+    },
+    {
+        "code": "AK",
+        "name": "Alaska",
+        "fips": "02",
+        "type": "state"
+    },
+    {
+        "code": "AZ",
+        "name": "Arizona",
+        "fips": "04",
+        "type": "state"
+    },
+    {
+        "code": "AR",
+        "name": "Arkansas",
+        "fips": "05",
+        "type": "state"
+    },
+    {
+        "code": "CA",
+        "name": "California",
+        "fips": "06",
+        "type": "state"
+    },
+    {
+        "code": "CO",
+        "name": "Colorado",
+        "fips": "08",
+        "type": "state"
+    },
+    {
+        "code": "CT",
+        "name": "Connecticut",
+        "fips": "09",
+        "type": "state"
+    },
+    {
+        "code": "DE",
+        "name": "Delaware",
+        "fips": "10",
+        "type": "state"
+    },
     {
         "code": "DC",
         "name": "District of Columbia",
         "fips": "11",
         "type": "district"
     },
-    { "code": "FL", "name": "Florida", "fips": "12", "type": "state" },
-    { "code": "GA", "name": "Georgia", "fips": "13", "type": "state" },
-    { "code": "HI", "name": "Hawaii", "fips": "15", "type": "state" },
-    { "code": "ID", "name": "Idaho", "fips": "16", "type": "state" },
-    { "code": "IL", "name": "Illinois", "fips": "17", "type": "state" },
-    { "code": "IN", "name": "Indiana", "fips": "18", "type": "state" },
-    { "code": "IA", "name": "Iowa", "fips": "19", "type": "state" },
-    { "code": "KS", "name": "Kansas", "fips": "20", "type": "state" },
-    { "code": "KY", "name": "Kentucky", "fips": "21", "type": "state" },
-    { "code": "LA", "name": "Louisiana", "fips": "22", "type": "state" },
-    { "code": "ME", "name": "Maine", "fips": "23", "type": "state" },
-    { "code": "MD", "name": "Maryland", "fips": "24", "type": "state" },
-    { "code": "MA", "name": "Massachusetts", "fips": "25", "type": "state" },
-    { "code": "MI", "name": "Michigan", "fips": "26", "type": "state" },
-    { "code": "MN", "name": "Minnesota", "fips": "27", "type": "state" },
-    { "code": "MS", "name": "Mississippi", "fips": "28", "type": "state" },
-    { "code": "MO", "name": "Missouri", "fips": "29", "type": "state" },
-    { "code": "MT", "name": "Montana", "fips": "30", "type": "state" },
-    { "code": "NE", "name": "Nebraska", "fips": "31", "type": "state" },
-    { "code": "NV", "name": "Nevada", "fips": "32", "type": "state" },
-    { "code": "NH", "name": "New Hampshire", "fips": "33", "type": "state" },
-    { "code": "NJ", "name": "New Jersey", "fips": "34", "type": "state" },
-    { "code": "NM", "name": "New Mexico", "fips": "35", "type": "state" },
-    { "code": "NY", "name": "New York", "fips": "36", "type": "state" },
-    { "code": "NC", "name": "North Carolina", "fips": "37", "type": "state" },
-    { "code": "ND", "name": "North Dakota", "fips": "38", "type": "state" },
-    { "code": "OH", "name": "Ohio", "fips": "39", "type": "state" },
-    { "code": "OK", "name": "Oklahoma", "fips": "40", "type": "state" },
-    { "code": "OR", "name": "Oregon", "fips": "41", "type": "state" },
-    { "code": "PA", "name": "Pennsylvania", "fips": "42", "type": "state" },
-    { "code": "RI", "name": "Rhode Island", "fips": "44", "type": "state" },
-    { "code": "SC", "name": "South Carolina", "fips": "45", "type": "state" },
-    { "code": "SD", "name": "South Dakota", "fips": "46", "type": "state" },
-    { "code": "TN", "name": "Tennessee", "fips": "47", "type": "state" },
-    { "code": "TX", "name": "Texas", "fips": "48", "type": "state" },
-    { "code": "UT", "name": "Utah", "fips": "49", "type": "state" },
-    { "code": "VT", "name": "Vermont", "fips": "50", "type": "state" },
-    { "code": "VA", "name": "Virginia", "fips": "51", "type": "state" },
-    { "code": "WA", "name": "Washington", "fips": "53", "type": "state" },
-    { "code": "WV", "name": "West Virginia", "fips": "54", "type": "state" },
-    { "code": "WI", "name": "Wisconsin", "fips": "55", "type": "state" },
-    { "code": "WY", "name": "Wyoming", "fips": "56", "type": "state" },
+    {
+        "code": "FL",
+        "name": "Florida",
+        "fips": "12",
+        "type": "state"
+    },
+    {
+        "code": "GA",
+        "name": "Georgia",
+        "fips": "13",
+        "type": "state"
+    },
+    {
+        "code": "HI",
+        "name": "Hawaii",
+        "fips": "15",
+        "type": "state"
+    },
+    {
+        "code": "ID",
+        "name": "Idaho",
+        "fips": "16",
+        "type": "state"
+    },
+    {
+        "code": "IL",
+        "name": "Illinois",
+        "fips": "17",
+        "type": "state"
+    },
+    {
+        "code": "IN",
+        "name": "Indiana",
+        "fips": "18",
+        "type": "state"
+    },
+    {
+        "code": "IA",
+        "name": "Iowa",
+        "fips": "19",
+        "type": "state"
+    },
+    {
+        "code": "KS",
+        "name": "Kansas",
+        "fips": "20",
+        "type": "state"
+    },
+    {
+        "code": "KY",
+        "name": "Kentucky",
+        "fips": "21",
+        "type": "state"
+    },
+    {
+        "code": "LA",
+        "name": "Louisiana",
+        "fips": "22",
+        "type": "state"
+    },
+    {
+        "code": "ME",
+        "name": "Maine",
+        "fips": "23",
+        "type": "state"
+    },
+    {
+        "code": "MD",
+        "name": "Maryland",
+        "fips": "24",
+        "type": "state"
+    },
+    {
+        "code": "MA",
+        "name": "Massachusetts",
+        "fips": "25",
+        "type": "state"
+    },
+    {
+        "code": "MI",
+        "name": "Michigan",
+        "fips": "26",
+        "type": "state"
+    },
+    {
+        "code": "MN",
+        "name": "Minnesota",
+        "fips": "27",
+        "type": "state"
+    },
+    {
+        "code": "MS",
+        "name": "Mississippi",
+        "fips": "28",
+        "type": "state"
+    },
+    {
+        "code": "MO",
+        "name": "Missouri",
+        "fips": "29",
+        "type": "state"
+    },
+    {
+        "code": "MT",
+        "name": "Montana",
+        "fips": "30",
+        "type": "state"
+    },
+    {
+        "code": "NE",
+        "name": "Nebraska",
+        "fips": "31",
+        "type": "state"
+    },
+    {
+        "code": "NV",
+        "name": "Nevada",
+        "fips": "32",
+        "type": "state"
+    },
+    {
+        "code": "NH",
+        "name": "New Hampshire",
+        "fips": "33",
+        "type": "state"
+    },
+    {
+        "code": "NJ",
+        "name": "New Jersey",
+        "fips": "34",
+        "type": "state"
+    },
+    {
+        "code": "NM",
+        "name": "New Mexico",
+        "fips": "35",
+        "type": "state"
+    },
+    {
+        "code": "NY",
+        "name": "New York",
+        "fips": "36",
+        "type": "state"
+    },
+    {
+        "code": "NC",
+        "name": "North Carolina",
+        "fips": "37",
+        "type": "state"
+    },
+    {
+        "code": "ND",
+        "name": "North Dakota",
+        "fips": "38",
+        "type": "state"
+    },
+    {
+        "code": "OH",
+        "name": "Ohio",
+        "fips": "39",
+        "type": "state"
+    },
+    {
+        "code": "OK",
+        "name": "Oklahoma",
+        "fips": "40",
+        "type": "state"
+    },
+    {
+        "code": "OR",
+        "name": "Oregon",
+        "fips": "41",
+        "type": "state"
+    },
+    {
+        "code": "PA",
+        "name": "Pennsylvania",
+        "fips": "42",
+        "type": "state"
+    },
+    {
+        "code": "RI",
+        "name": "Rhode Island",
+        "fips": "44",
+        "type": "state"
+    },
+    {
+        "code": "SC",
+        "name": "South Carolina",
+        "fips": "45",
+        "type": "state"
+    },
+    {
+        "code": "SD",
+        "name": "South Dakota",
+        "fips": "46",
+        "type": "state"
+    },
+    {
+        "code": "TN",
+        "name": "Tennessee",
+        "fips": "47",
+        "type": "state"
+    },
+    {
+        "code": "TX",
+        "name": "Texas",
+        "fips": "48",
+        "type": "state"
+    },
+    {
+        "code": "UT",
+        "name": "Utah",
+        "fips": "49",
+        "type": "state"
+    },
+    {
+        "code": "VT",
+        "name": "Vermont",
+        "fips": "50",
+        "type": "state"
+    },
+    {
+        "code": "VA",
+        "name": "Virginia",
+        "fips": "51",
+        "type": "state"
+    },
+    {
+        "code": "WA",
+        "name": "Washington",
+        "fips": "53",
+        "type": "state"
+    },
+    {
+        "code": "WV",
+        "name": "West Virginia",
+        "fips": "54",
+        "type": "state"
+    },
+    {
+        "code": "WI",
+        "name": "Wisconsin",
+        "fips": "55",
+        "type": "state"
+    },
+    {
+        "code": "WY",
+        "name": "Wyoming",
+        "fips": "56",
+        "type": "state"
+    },
     {
         "code": "AS",
         "name": "American Samoa",
         "fips": "60",
         "type": "territory"
     },
-    { "code": "GU", "name": "Guam", "fips": "66", "type": "territory" },
+    {
+        "code": "GU",
+        "name": "Guam",
+        "fips": "66",
+        "type": "territory"
+    },
     {
         "code": "MP",
         "name": "Northern Mariana Islands",
         "fips": "69",
         "type": "territory"
     },
-    { "code": "PR", "name": "Puerto Rico", "fips": "72", "type": "territory" },
+    {
+        "code": "PR",
+        "name": "Puerto Rico",
+        "fips": "72",
+        "type": "territory"
+    },
     {
         "code": "VI",
         "name": "U.S. Virgin Islands",
